@@ -18,9 +18,6 @@ Route::resource('Vehicles', 'VehicleController');
 Route::resource('locations','LocationController');
 
 
-
-
-
 Route::get('/', function () {
     return view('welcome');
 });
